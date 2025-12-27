@@ -1,0 +1,415 @@
+body {
+    background-color: black;
+}
+::-webkit-scrollbar{
+    display: none;
+}
+.Annapurna{
+    max-width: 100%;
+    height: 100%;
+    z-index: -1;
+    position: relative;
+}
+.logo {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    translate: -50% -50%;
+    z-index: 0;
+    
+}
+.Unleash{
+    color: white;
+    font-family: "Unica One";
+    position: absolute;
+    z-index: 1;
+    top: 45%;
+    left: 20%;
+    font-size: 500%;
+    text-align: center;
+    transition: font-size 0.3s, left 0.3s, top 0.3s, color 1s;
+}
+.Unleash:hover{
+    font-size: 550%;
+    left: 17%;
+    top: 43%;
+    color: yellow;
+}    
+.btn1{
+    width: 140px;
+    height: 50px;
+    position: absolute;
+    left: 25%;
+    bottom: -15%;
+    font-family: "Inria Sans";
+    font-size: larger;
+    color: yellow;
+    background-color: black;
+    border-radius: 15px;
+    border-color: transparent;
+    cursor: pointer;
+    transition: background-color 0.5s, color 0.5s, width 0.5s, height 0.5s, left 0.5s;
+}
+.btn1:hover{
+    width: 160px;
+    height: 60px;
+    left: 24%;
+    background-color: yellow;
+    color: black;
+}
+.btn1:active{
+    transform:scale(101%);
+}
+.btn2{
+    width: 140px;
+    height: 50px;
+    position: absolute;
+    left: 63%;
+    bottom: -15%;
+    font-family: "Inria Sans";
+    font-size: larger;
+    color: black;
+    background-color: yellow;
+    border-radius: 15px;
+    border-color: transparent;
+    cursor: pointer;
+    transition: background-color 0.5s, color 0.5s, width 0.5s, height 0.5s, left 0.5s;
+}
+.btn2:hover{
+    width: 160px;
+    height: 60px;
+    left: 62%;
+    background-color: black;
+    color: yellow;
+}
+.btn2:active{
+    transform:scale(101%);
+}
+.btn3{
+    width: 140px;
+    height: 50px;
+    position: absolute;
+    left: 50%;
+    bottom: -50%;
+    transform: translate( -50%);
+    font-family: "Inria Sans";
+    font-size: larger;
+    color: black;
+    background-color: yellow;
+    border-radius: 15px;
+    border-color: transparent;
+    cursor: pointer;
+    transition: background-color 0.5s, color 0.5s, width 0.5s, height 0.5s, left 0.5s;
+}
+.btn3:hover{
+    background-color: black;
+    color: yellow;
+}
+h1{
+    color: gold;
+    font-family: "Unica one";
+    font-size: 300%;
+    position: absolute;
+    top: 5%;
+    left: 5%;
+}
+.yapper{
+    height: 500px;
+    position: relative;
+    padding-bottom: 0;
+}
+
+.yap{
+    width: 500px;
+    height: 400px;
+    color: white;
+    font-size: 120%;
+    text-align:center;
+    position: absolute;
+    top: 40%;
+    left: 5%;
+    font-family: "Unica One";
+}
+.yap2{
+    width: 500px;
+    height: 400px;
+    color: white;
+    font-size: 120%;
+    text-align:center;
+    position: absolute;
+    top: 40%;
+    left: 52%;
+    font-family: "Unica One";
+}
+
+.Ghandruk{
+    max-width: 100%;
+    height: 100%; 
+}
+.prj{
+    max-width: 100%;
+    height: 600px;
+    background-color: transparent;
+    position: relative;
+    scroll-margin-top: 20px;
+}
+.prj1{
+    max-width: 80%;
+    height: 120px;
+    background-color: gold;
+    border-radius: 15px;
+    position: absolute;
+    left: 10%;
+    top: 17%;
+    position: relative;
+}
+.prj2{
+    max-width: 80%;
+    height: 120px;
+    background-color: white;
+    border-radius: 15px;
+    position: absolute;
+    left: 10%;
+    top: 20%;
+    position: relative;
+}
+.prj3{
+    max-width: 80%;
+    height: 120px;
+    background-color: #0D0D0D;
+    border-radius: 15px;
+    position: absolute;
+    left: 10%;
+    top: 23%;
+    position: relative;
+    text-align: end;
+}
+.X{
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    left: 2%;
+    top: 20%;
+}
+.Y{
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    left: 2%;
+    top: 20%;
+    z-index: 1;
+}
+.Z{
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    left: 2%;
+    top: 20%;
+}
+.djy{
+    width: 110px;
+    height: 120px;
+    border-radius: 15px;
+    background-color: white;
+}
+.TaffyGarden{
+    color: black;
+    font-family: "Unica One";
+    font-size: 100%;
+    position: absolute;
+    left: 15%;
+    top: 0%;
+}
+.yap3{
+    color: black;
+    font-family: "Unica One";
+    font-size: 70%;
+    position: absolute;
+    left: 15%;
+    top: 40%;
+}
+.learn{
+    color: black;
+    font-family: "Unica One";
+    font-size: 150%;
+    position: absolute;
+    right: 10%;
+    top: 15%;
+    text-decoration: none;
+}
+.djy2{
+    width: 110px;
+    height: 120px;
+    border-radius: 15px;
+    background-color: gold;
+}
+.project{
+    color: black;
+    font-family: "Unica One";
+    font-size: 100%;
+    position: absolute;
+    left: 15%;
+    top: 0%;
+}
+.yap4{
+    color: black;
+    font-family: "Unica One";
+    font-size: 70%;
+    position: absolute;
+    left: 15%;
+    top: 40%;
+}
+.learn2{
+    color: black;
+    font-family: "Unica One";
+    font-size: 150%;
+    position: absolute;
+    right: 10%;
+    top: 15%;
+    text-decoration: none;
+}
+.djy3{
+    width: 110px;
+    height: 120px;
+    border-radius: 15px;
+    background-color: white;
+}
+.alpha{
+    color: white;
+    font-family: "Unica One";
+    font-size: 100%;
+    position: absolute;
+    left: 15%;
+    top: 0%;
+}
+.yap5{
+    color: white;
+    font-family: "Unica One";
+    font-size: 70%;
+    position: absolute;
+    left: 15%;
+    top: 40%;
+}
+.learn3{
+    color: white;
+    font-family: "Unica One";
+    font-size: 150%;
+    position: absolute;
+    right: 10%;
+    top: 15%;
+    text-decoration: none;
+}
+.Namche{
+    max-width: 100%;
+    height: 100%; 
+}
+div.gallery {
+    max-width: 100%;
+    height: 600px;
+    background-color: transparent;
+    position: relative;
+}
+h1.title{
+    color: gold;
+    font-family: "Unica One";
+    font-size: 300%;
+    text-align: center;
+    position: absolute;
+    top: 5%;
+    left: 5%;
+}
+.pic{
+    max-width: 700px;
+    height: 300px;
+    position: absolute;
+    top: 35%;
+    right: 12%;
+    border-radius: 15px;
+}
+.pic2{
+    max-width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 35%;
+    left: 10%;
+    border-radius: 15px;
+}
+.pic3{
+    max-width: 450px;
+    height: 280px;
+    position: absolute;
+    top: 88%;
+    right: 12%;
+    border-radius: 15px;
+}
+.footer{
+    max-width: 100%;
+    height: 200px;
+    background-color: white;
+    position: relative;
+    text-align: center;
+    font-family: "Unica One";
+    top: 400px;
+}
+.git{
+    max-width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 30%;
+    left: 43%;
+}
+.insta{
+    max-width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 30%;
+    left: 48%;
+}
+.discord{
+    max-width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 30%;
+    left: 53%;
+}
+.copyright{
+    color: black;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 35%;
+}
+.hole{
+    max-width: 100%;
+    height: 200px;
+    background-color: transparent;
+    position: relative;
+    top: 320px;
+}
+.slide-in-right {
+    transform: translateX(100%);
+    opacity: 0;
+    transition: transform 2.5s ease-out, opacity 1.5s ease-out;
+}
+.slide-in-left {
+    transform: translateX(-100%);
+    opacity: 0;
+    transition: transform 2.5s ease-out, opacity 1.5s ease-out;
+}
+.slide-in-right.active {
+    transform: translateX(0);
+    opacity: 1;
+}
+.slide-in-left.active{
+    transform: translateX(0);
+    opacity: 1;
+}
+.fade-in {
+    opacity: 0;
+    transition: opacity 1.5s ease-in;
+    transform: translateY(20px);
+}
+.fade-in.active {
+    opacity: 1;
+    transform: translateY(0);
+}
